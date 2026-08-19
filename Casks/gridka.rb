@@ -1,6 +1,6 @@
 cask "gridka" do
-  version "1.3.0"
-  sha256 "31ccd1bf70b26fe1822c3c52d83601d61e0072c5de3076fd63490286c3b7d83a"
+  version "1.3.1"
+  sha256 "4922ff164d1284a8e47b44c7fdbf981fd908e9fd9bbcb3afa99b5a7e858b8232"
 
   url "https://github.com/Ceesaxp/gridka/releases/download/v#{version}/Gridka-#{version}.dmg",
       verified: "github.com/Ceesaxp/gridka/"
