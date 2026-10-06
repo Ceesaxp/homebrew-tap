@@ -18,23 +18,23 @@ class TeleTui < Formula
   # below: no Go toolchain at install time, and no libc to match on Linux.
   on_macos do
     on_arm do
-      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.32/telegram-cli_v0.0.32_darwin_arm64.tar.gz"
-      sha256 "a33930d9546f2f0add33509802313890c2203f3b17e9c53de0b243d36f6d6dcd"
+      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.33/telegram-cli_v0.0.33_darwin_arm64.tar.gz"
+      sha256 "cb86eb10c5b9c9cd28216fe9e24aa6e17cdbbc11a6485a2d2d6ec7a6460d1c93"
     end
     on_intel do
-      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.32/telegram-cli_v0.0.32_darwin_amd64.tar.gz"
-      sha256 "c4a1f49c50a2e3169825f2916a0e6a807df8b5d316f62b22e56ed338c26711cf"
+      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.33/telegram-cli_v0.0.33_darwin_amd64.tar.gz"
+      sha256 "5037346964c5435fc05bb618b437313ff87cdc35a5b3a6ee58adec75e366815a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.32/telegram-cli_v0.0.32_linux_arm64.tar.gz"
-      sha256 "8f72e226254865d68034542d1c39eba156efb85afe085eeead079e076dfd4bf2"
+      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.33/telegram-cli_v0.0.33_linux_arm64.tar.gz"
+      sha256 "4447cddeff14d06ed24771d89cc766a86f7542f9807fae1665d553a04450a650"
     end
     on_intel do
-      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.32/telegram-cli_v0.0.32_linux_amd64.tar.gz"
-      sha256 "b0ab14ddf65a64c950e1523f62e6db50ad716df4109ed84527c7a8d48ebb4617"
+      url "https://github.com/Ceesaxp/telegram-cli/releases/download/v0.0.33/telegram-cli_v0.0.33_linux_amd64.tar.gz"
+      sha256 "1136262978a9fb0658d4754061c56fa05874b5a21f5b53761c6dd1e1dbd1d747"
     end
   end
 
